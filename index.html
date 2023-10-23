@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rádio Lisboa</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container text-center d-flex flex-column justify-content-center h-100">
+        <div class="header">
+            <h1>Bem vindos a RÁDIO LISBOA</h1><br>
+            <img src="img/logo.png" alt="Logo da Escola" class="logo">
+        </div>
+        <div class="audio-container">
+            <button id="play-button" class="btn btn-primary btn-circle"></button>
+            <audio id="audio-player" controls autoplay>
+                <!-- Insira o link do seu arquivo de áudio aqui -->
+                <source src="audio/calm.mp3" type="audio/mp3">
+                Seu navegador não suporta a reprodução de áudio.
+            </audio>
+        </div>
+    </div>
+   
+    <footer class="footer bg-light-gray text-center py-2">
+        © 2023 Rádio Lisboa
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
