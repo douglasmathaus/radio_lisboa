@@ -3,10 +3,24 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centraliza horizontalmente */
-    height: 100vh;
+    align-items: center;
+    height: 100px;
     margin: 0;
 }
+
+/* Adicione um estilo para a navbar cinza */
+.contact-bar {
+    background-color: #cccccc;
+    color: #cccccc;
+    width: 100%; /* Define a largura para preencher toda a largura da página */
+    padding: 8px;
+    position: flex; /* Mantém a barra no topo da página */
+    top: 0; /* Alinha a barra ao topo da página */
+    left: 0; /* Alinha a barra à esquerda da página */
+    z-index: 999; /* Define uma alta camada z-index para que fique sobre outros elementos */
+
+}
+
 
 .header {
     flex: 1;
@@ -26,15 +40,7 @@ h1 {
     margin: 0 auto;
 }
 
-#play-button {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: none;
-    color: #fff;
-    font-size: 40px;
-    margin: 20px;
-}
+
 
 #audio-player {
     width: 100%;
@@ -42,8 +48,13 @@ h1 {
     margin: 20px auto;
 }
 
-
+/* Estilize o rodapé para fixá-lo na parte inferior */
 .footer {
+    text-align: center;
     background-color: #ccc;
-    color: #000;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
