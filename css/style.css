@@ -4,7 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100px;
+    height: auto;
     margin: 0;
 }
 
@@ -13,7 +13,7 @@ body {
     background-color: #cccccc;
     color: #cccccc;
     width: 100%; /* Define a largura para preencher toda a largura da página */
-    padding: 8px;
+    padding: 12px;
     position: flex; /* Mantém a barra no topo da página */
     top: 0; /* Alinha a barra ao topo da página */
     left: 0; /* Alinha a barra à esquerda da página */
@@ -32,6 +32,17 @@ body {
 
 h1 {
     color: #fff;
+}
+
+.title {
+    padding-top: 30px;
+    color: #c2c2c2;
+}
+
+.slogan {
+    color: #d4d4d4;
+    padding-top: 0px;
+    font-size: 22px;
 }
 
 .logo {
